@@ -9,7 +9,7 @@ public class Driehoek implements Figuurinterface {
 
     public Driehoek() {
         // leeg
-    }
+    } // comment
 
     public Driehoek(double lengteZijde1, double lengteZijde2, double lengteZijde3, int[] achtergrondkleur, int[] omtrekkleur) {
         this.lengteZijde1 = lengteZijde1;
