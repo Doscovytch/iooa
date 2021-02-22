@@ -7,4 +7,11 @@ public class Bolognese extends Pizza{
         super.setToppings(new String[]{"Bolognese", "souce"});
         super.setPrijs(10.50);
     }
+
+    public Bolognese(String adress) {
+        super.setNaam("Bolognese");
+        super.setToppings(new String[]{"Bolognese", "souce"});
+        super.setPrijs(10.50);
+        super.setBezorgadres(adress);
+    }
 }

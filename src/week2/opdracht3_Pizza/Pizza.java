@@ -4,6 +4,7 @@ public abstract class Pizza {
     private String naam = "Default";
     private String[] toppings = {"souce"};
     private double prijs = 0;
+    private String bezorgadres = "Default";
 
     public Pizza() {}
 
@@ -29,5 +30,13 @@ public abstract class Pizza {
 
     public void setPrijs(double prijs) {
         this.prijs = prijs;
+    }
+
+    public String getBezorgadres() {
+        return bezorgadres;
+    }
+
+    public void setBezorgadres(String bezorgadres) {
+        this.bezorgadres = bezorgadres;
     }
 }
