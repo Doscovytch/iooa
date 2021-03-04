@@ -18,11 +18,11 @@ public class Main {
         for (Object pizza : allPizzas) {
             if (pizza instanceof Tonno) {
                 Tonno p = (Tonno) pizza;
-                System.out.println(p.getNaam() + " " + p.getPrijs());
+                System.out.println(p.getNaam() + " " + p.getPrijs() + " " + p.getClass());
                 p.yourmom();
             } else {
                 Pizza p = (Pizza) pizza;
-                System.out.println(p.getNaam() + " " + p.getPrijs());
+                System.out.println(p.getNaam() + " " + p.getPrijs() + " " + p.getClass());
             }
         }
 
