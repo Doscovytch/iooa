@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Main {
     public static void main(String[] args) {
         // creating the pizza list
-        ArrayList<Object> allPizzas = new ArrayList<>();
+        ArrayList<Pizza> allPizzas = new ArrayList<>();
 
         // filling the pizza list with pizza
         allPizzas.add(new Tonno());
@@ -15,14 +15,14 @@ public class Main {
         allPizzas.add(new Hawaii());
 
         // looping through the pizza list and printing the name and price
-        for (Object pizza : allPizzas) {
+        for (Pizza pizza : allPizzas) {
             if (pizza instanceof Tonno) {
                 Tonno p = (Tonno) pizza;
                 System.out.println(p.getNaam() + " " + p.getPrijs() + " " + p.getClass());
                 p.yourmom();
             } else {
-                Pizza p = (Pizza) pizza;
-                System.out.println(p.getNaam() + " " + p.getPrijs() + " " + p.getClass());
+                // Pizza p = (Pizza) pizza;
+                System.out.println(pizza.getNaam() + " " + pizza.getPrijs() + " " + pizza.getClass());
             }
         }
 

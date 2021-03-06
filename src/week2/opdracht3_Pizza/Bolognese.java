@@ -14,4 +14,8 @@ public class Bolognese extends Pizza{
         super.setPrijs(10.50);
         super.setBezorgadres(adress);
     }
+
+    public void ourmom() {
+        System.out.println("Im sad");
+    }
 }
