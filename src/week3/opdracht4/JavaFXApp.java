@@ -13,6 +13,9 @@ import javafx.stage.Stage;
 import java.util.ArrayList;
 
 public class JavaFXApp extends Application {
+
+    public double test = Math.tan(0.5);
+
     @Override
     public void start(Stage primaryStage) {
         try {
