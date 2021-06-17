@@ -12,6 +12,10 @@ public class AnimalFarmApp {
         list.add(new Whale());
         list.add(new Olifant());
 
+        list.get(0).speak();
+        list.get(1).speak();
+        list.get(2).speak();
+
         letTheAnimalsSpeak(list);
     }
 
